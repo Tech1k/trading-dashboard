@@ -1,0 +1,168 @@
+<html>
+	<head>
+		<title>Trading Dashboard | Chart</title>
+		<link rel="icon" type="image/png" href="icon.png" />
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+				{
+				"symbols": [
+				  {
+				    "proName": "BITSTAMP:BTCUSD",
+				    "title": "BTC/USD"
+				  },
+				  {
+				    "proName": "BITSTAMP:ETHUSD",
+				    "title": "ETH/USD"
+				  },
+				  {
+				    "description": "LTC/USD",
+				    "proName": "COINBASE:LTCUSD"
+				  },
+				  {
+				    "description": "BCH/USD",
+				    "proName": "COINBASE:BCHUSD"
+				  },
+				  {
+				    "description": "TRX/USD",
+				    "proName": "BITFINEX:TRXUSD"
+				  },
+				  {
+				    "description": "XRP/USD",
+				    "proName": "BITSTAMP:XRPUSD"
+				  },
+				  {
+				    "description": "ALGO/USD",
+				    "proName": "COINBASE:ALGOUSD"
+				  },
+				  {
+				    "description": "DGB/USD",
+				    "proName": "BITTREX:DGBUSD"
+				  },
+				  {
+				    "description": "XLM/USD",
+				    "proName": "COINBASE:XLMUSD"
+				  },
+				  {
+				    "description": "BTG/USD",
+				    "proName": "BITFINEX:BTGUSD"
+				  },
+				  {
+				    "description": "DOGE/USD",
+				    "proName": "BITTREX:DOGEUSD"
+				  },
+				  {
+				    "description": "YFI/USD",
+				    "proName": "BINANCE:YFIUSD"
+				  },
+				  {
+				    "description": "YFV/USD",
+				    "proName": "OKEX:YFVUSDT"
+				  },
+				  {
+				    "description": "YFL/USD",
+				    "proName": "POLONIEX:YFLUSDT"
+				  },
+				  {
+				    "description": "CREAM/USD",
+				    "proName": "FTX:CREAMUSD"
+				  }
+				],
+				"colorTheme": "dark",
+				"isTransparent": true,
+				"displayMode": "adaptive",
+				"locale": "en"
+				}
+			</script>
+		</div>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+				{
+				"symbols": [
+				  {
+				    "proName": "BITSTAMP:BTCUSD",
+				    "title": "BTC/USD"
+				  },
+				  {
+				    "proName": "BITSTAMP:ETHUSD",
+				    "title": "ETH/USD"
+				  },
+				  {
+				    "description": "LTC/USD",
+				    "proName": "COINBASE:LTCUSD"
+				  },
+				  {
+				    "description": "TRX/USD",
+				    "proName": "BITFINEX:TRXUSD"
+				  },
+				  {
+				    "description": "ALGO/USD",
+				    "proName": "COINBASE:ALGOUSD"
+				  },
+				  {
+				    "description": "BCH/USD",
+				    "proName": "KRAKEN:BCHUSD"
+				  }
+				],
+				"colorTheme": "dark",
+				"isTransparent": false,
+				"locale": "en"
+				}
+			</script>
+		</div>
+		<div class="tradingview-widget-container">
+			<div id="tradingview_cc780"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+			<script type="text/javascript">
+				new TradingView.widget(
+				{
+				"autosize": true,
+				//"width": 980,
+				//"height": 610,
+				"symbol": "BITSTAMP:BTCUSD",
+				"interval": "5",
+				"timezone": "Etc/UTC",
+				"theme": "dark",
+				"style": "1",
+				"locale": "en",
+				"toolbar_bg": "#f1f3f6",
+				"enable_publishing": false,
+				"withdateranges": true,
+				"hide_side_toolbar": false,
+				"allow_symbol_change": true,
+				"watchlist": [
+				  "COINBASE:ETHUSD",
+				  "COINBASE:LTCUSD",
+				  "COINBASE:BCHUSD",
+				  "BITFINEX:TRXUSD",
+				  "COINBASE:ALGOUSD",
+				  "BITTREX:DGBUSD",
+				  "BITFINEX:XRPUSD",
+				  "COINBASE:XLMUSD",
+				  "BITFINEX:BTGUSD",
+				  "BITTREX:DOGEUSD",
+				  "COINBASE:YFIUSD",
+				  "POLONIEX:YFLUSDT",
+				  "OKEX:YFVUSDT",
+				  "FTX:CREAMUSD"
+				],
+				"details": true,
+				"show_popup_button": true,
+				"popup_width": "1000",
+				"popup_height": "650",
+				"container_id": "tradingview_cc780"
+				}
+				);
+			</script>
+		</div>
+        <div class="footer">
+            <p>Trading Dashboard by Kristian Kramer</p>
+            <a href=".." id="footerlink">Home</a> • <a href="#" id="footerlink">Charts</a>
+        </div>
+        <br/>
+	</body>
+</html>

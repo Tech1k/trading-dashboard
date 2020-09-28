@@ -1,0 +1,208 @@
+<html>
+	<head>
+	    <title>Trading Dashboard</title>
+		<link rel="icon" type="image/png" href="icon.png" />
+		<link rel="stylesheet" href="style.css">
+		<meta http-equiv="refresh" content="30">
+	</head>
+	<body>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+				{
+				"symbols": [
+				  {
+				    "proName": "BITSTAMP:BTCUSD",
+				    "title": "BTC/USD"
+				  },
+				  {
+				    "proName": "BITSTAMP:ETHUSD",
+				    "title": "ETH/USD"
+				  },
+				  {
+				    "description": "LTC/USD",
+				    "proName": "COINBASE:LTCUSD"
+				  },
+				  {
+				    "description": "BCH/USD",
+				    "proName": "COINBASE:BCHUSD"
+				  },
+				  {
+				    "description": "TRX/USD",
+				    "proName": "BITFINEX:TRXUSD"
+				  },
+				  {
+				    "description": "XRP/USD",
+				    "proName": "BITSTAMP:XRPUSD"
+				  },
+				  {
+				    "description": "ALGO/USD",
+				    "proName": "COINBASE:ALGOUSD"
+				  },
+				  {
+				    "description": "DGB/USD",
+				    "proName": "BITTREX:DGBUSD"
+				  },
+				  {
+				    "description": "XLM/USD",
+				    "proName": "COINBASE:XLMUSD"
+				  },
+				  {
+				    "description": "BTG/USD",
+				    "proName": "BITFINEX:BTGUSD"
+				  },
+				  {
+				    "description": "DOGE/USD",
+				    "proName": "BITTREX:DOGEUSD"
+				  },
+				  {
+				    "description": "YFI/USD",
+				    "proName": "BINANCE:YFIUSD"
+				  },
+				  {
+				    "description": "YFV/USD",
+				    "proName": "OKEX:YFVUSDT"
+				  },
+				  {
+				    "description": "YFL/USD",
+				    "proName": "POLONIEX:YFLUSDT"
+				  },
+				  {
+				    "description": "CREAM/USD",
+				    "proName": "FTX:CREAMUSD"
+				  }
+				],
+				"colorTheme": "dark",
+				"isTransparent": true,
+				"displayMode": "adaptive",
+				"locale": "en"
+				}
+			</script>
+		</div>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+				{
+				"symbols": [
+				  {
+				    "proName": "BITSTAMP:BTCUSD",
+				    "title": "BTC/USD"
+				  },
+				  {
+				    "proName": "BITSTAMP:ETHUSD",
+				    "title": "ETH/USD"
+				  },
+				  {
+				    "description": "LTC/USD",
+				    "proName": "COINBASE:LTCUSD"
+				  },
+				  {
+				    "description": "TRX/USD",
+				    "proName": "BITFINEX:TRXUSD"
+				  },
+				  {
+				    "description": "ALGO/USD",
+				    "proName": "COINBASE:ALGOUSD"
+				  },
+				  {
+				    "description": "BCH/USD",
+				    "proName": "KRAKEN:BCHUSD"
+				  }
+				],
+				"colorTheme": "dark",
+				"isTransparent": false,
+				"locale": "en"
+				}
+			</script>
+		</div>
+		<div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+				{
+				"width": "100%",
+				"height": "100%",
+				"symbolsGroups": [
+				  {
+				    "name": "Crypto",
+				    "symbols": [
+				      {
+				        "name": "COINBASE:BTCUSD",
+				        "displayName": "BTC/USD"
+				      },
+				      {
+				        "name": "COINBASE:ETHUSD",
+				        "displayName": "ETH/USD"
+				      },
+				      {
+				        "name": "COINBASE:LTCUSD",
+				        "displayName": "LTC/USD"
+				      },
+				      {
+				        "name": "COINBASE:BCHUSD",
+				        "displayName": "BCH/USD"
+				      },
+				      {
+				        "name": "BINANCE:TRXUSD",
+				        "displayName": "TRX/USD"
+				      },
+				      {
+				        "name": "BITSTAMP:XRPUSD",
+				        "displayName": "XRP/USD"
+				      },
+				      {
+				        "name": "COINBASE:ALGOUSD",
+				        "displayName": "ALGO/USD"
+				      },
+				      {
+				        "name": "BITTREX:DGBUSD",
+				        "displayName": "DGB/USD"
+				      },
+				      {
+				        "name": "KRAKEN:XLMUSD",
+				        "displayName": "XLM/USD"
+				      },
+				      {
+				        "name": "BITFINEX:BTGUSD",
+				        "displayName": "BTG/USD"
+				      },
+				      {
+				        "name": "BITTREX:DOGEUSD",
+				        "displayName": "DOGE/USD"
+				      }
+				    ]
+				  },
+				  {
+				    "name": "DeFi",
+				    "symbols": [
+				      {
+				        "name": "COINBASE:YFIUSD",
+				        "displayName": "YFI/USD"
+				      },
+				      {
+				        "name": "OKEX:YFVUSDT",
+				        "displayName": "YFV/USD"
+				      },
+				      {
+				        "name": "POLONIEX:YFLUSDT",
+				        "displayName": "YFL/USD"
+				      },
+				      {
+				        "name": "FTX:CREAMUSD",
+				        "displayName": "CREAM/USD"
+				      }
+				    ]
+				  }
+				],
+				"colorTheme": "dark",
+				"isTransparent": false,
+				"locale": "en"
+				}
+			</script>
+        </div>
+        <div class="footer">
+            <p>Trading Dashboard by Kristian Kramer</p>
+            <a href="#" id="footerlink">Home</a> • <a href="chart.html" id="footerlink">Charts</a>
+        </div>
+        <br/>
+	</body>
+</html>
